@@ -3,11 +3,6 @@ def main():
     peso = float(input("Peso en kg:"))
     altura = float(input("Altura en m:"))
 
-    IMC = peso / (altura*2)
-    if IMC < 20:
-        print(PESO BAJO)
-    elif 
-    
     if peso >0 and altura >0:
         indice = peso / altura**2
         if indice < 20: 
@@ -21,7 +16,7 @@ def main():
         elif indice >= 40:
             print ("OBESIDAD MORBIDA")
     else:
-        print ("Revisa tus datos, alguno de ellos es erróneo")
+        print ("Revisa tus datos, alguno de ellos es erróneo.")
         
 if __name__=='__main__':
     main()
