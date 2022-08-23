@@ -6,18 +6,20 @@ def main():
         print (f"{numero} cm")
     elif numero<100000: 
         print (f"{numero//100} m")
-    elif numero1 == numero//100000:
-        print (f"{numero1} km")
+        numero4 = numero%100
+        if numero4 > 0:
+                print (f"{numero4} cm")
     else: 
         numero1 = numero//100000
         print (f"{numero1} km")
         numero2= numero%100000
         if numero2> 0:
             numero3 = numero2//100
-            print (f"{numero3} m")
+            if numero3 > 0:
+                print (f"{numero3} m")
             numero4 = numero2%100
-            if numero > 0:
-                print (f"{numero4*100} cm") 
+            if numero4 > 0:
+                print (f"{numero4} cm") 
 
 if __name__ == '__main__':
     main()
